@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Homepage</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+		<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/index.js"></script>
+
+		<div id="page-header">
+			<img id="header-logo" src="resources/images/logo-100.png">
+			<h2 id="header-text">Facial Attendance</h2>
+		</div>
+
+		<div id="loginContainer">
+			<div class="login">
+				<h5>Teacher Login:</h5>
+				<button class="login-button" id="teacherLogin" onclick="teacherLogin()">Login</button>
+			</div>
+			<div class="login">
+				<h5>Student Login:</h5>
+				<button class="login-button" id="studentLogin" onclick="studentLogin()" disabled>Login</button>
+			</div>
+		</div>
+
+	</body>
+</html>

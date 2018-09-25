@@ -1,0 +1,64 @@
+ul {
+	list-style: none;
+}
+
+#attendanceRoot {
+	padding: 0;
+	margin: 35pt;
+	margin-top: 20pt;
+	margin-left: 2%;
+	width: 96%;
+}
+
+.attendance-table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #bbbbbb;
+	overflow: hidden;
+}
+
+.attendance-table th {
+	background-color: #cccccc;
+}
+
+.attendance-table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.attendance-table tr:hover {
+	background-color: #dddddd;
+}
+
+th, td {
+	padding: 10pt;
+}
+
+th:nth-child(1) {
+	width: 80%;
+}
+
+img:not(#header-logo) {
+	width: 50pt;
+	height: auto;
+	margin: 5pt;
+}
+
+.attendance-table td {
+	vertical-align: middle;
+	position: relative;
+}
+
+.attendance-table td img {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.attendance-table td p {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15pt;
+}
+
+.info {
+	text-align: center;
+}

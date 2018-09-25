@@ -1,0 +1,16 @@
+.login-button {
+	padding: 5pt;
+	border-radius: 5pt;
+}
+
+#loginContainer {
+	text-align: center;
+}
+
+#loginContainer > .login {
+	display: inline-block;
+}
+
+.login {
+	margin: 25pt;
+}
